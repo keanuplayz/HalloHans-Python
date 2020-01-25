@@ -15,13 +15,10 @@ from docopt import docopt
 def say_hello(name):
     return("Dag {}!".format(name))
 
-def hans(name):
-    return("Hallo Hans!")
-
-
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='DEMO 1.0')
     if arguments['<naam>']:
         print(say_hello(arguments['<naam>']))
-    else:
-        print(arguments['--help'])
+
+    if arguments['<naam>'] == 'Hans':
+        print("Hallo Hans!")
