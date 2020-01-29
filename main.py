@@ -16,9 +16,5 @@ if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.1.2')
 
 name = input("Naam: ")
-if name == "Hans":
-    print("\n")
-    print("Hallo Hans!")
-else:
-    print("\n")
-    print("Dag " + name + "!")
+print("\n")
+print("Dag " + name + "!")
