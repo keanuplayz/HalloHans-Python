@@ -16,9 +16,10 @@ if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.1.2')
 
 name = input("Naam: ")
+DagName = "Dag " + name + "!\n"
 if name == "Hans":
     print("\n")
-    print("Hallo Hans!")
+    print("Hallo Hans!\n"*10)
 else:
     print("\n")
-    print("Dag " + name + "!")
+    print(DagName*10)
