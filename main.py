@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
 name = input("Naam: ")
 DagName = "Dag " + name + "!\n"
-if name == "Hans":
+if name.upper == "HANS":
     while LoopVar < 10:
         print("Hallo Hans!\n")
         LoopVar += 1
