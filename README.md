@@ -19,7 +19,7 @@ To build the `.exe` file, use `pyinstaller`.
 
 The process is as following:
 
-1. ```git clone https://github.com/keanuplayz/IT-Python/edit/master/README.md```
+1. ```git clone https://github.com/keanuplayz/IT-Python```
 
 2. ```pip install -r requirements.txt``` or ```pip3 install -r requirements.txt```
 
