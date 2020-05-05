@@ -1,5 +1,5 @@
 ﻿altgraph==0.17
-astroid==2.4.0
+astroid==2.4.1
 colorama==0.4.3
 docopt==0.6.2
 future==0.18.2
